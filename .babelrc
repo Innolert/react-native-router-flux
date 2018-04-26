@@ -1,7 +1,6 @@
 {
   "presets": ["react-native"],
   "plugins": [
-    "transform-decorators-legacy",
     "transform-do-expressions",
     "transform-function-bind",
     "transform-class-constructor-call",
