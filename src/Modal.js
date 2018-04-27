@@ -9,8 +9,8 @@ import DefaultRenderer from './DefaultRenderer';
 const propTypes = {
   navigationState: PropTypes.shape({
     children: PropTypes.array,
-  }).isRequired,
-  onNavigate: PropTypes.func.isRequired,
+  }),
+  onNavigate: PropTypes.func,
 };
 
 export default function Modal(props: Object) {
